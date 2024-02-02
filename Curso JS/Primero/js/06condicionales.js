@@ -42,3 +42,31 @@ if(edad >= 18){
     // Es Menor de edad
     console.log(nombre+" Tiene "+edad+ " Años, Es menor de edad")
 }
+
+/*OPERADORS LOGICOS 
+    AND(Y): && 
+    OR(O): ||
+    NEGACION: !
+    */
+
+
+var year = 2018;
+
+// NEGACION
+if(year != 2016){
+    console.log("El año es diferente al 2016, realmente es: "+year);
+}
+
+// AND
+if(year >= 2000 && year <= 2020){
+    console.log("Estamos en la era Actual");
+}else{
+    console.log("No estamos en la post moderna");
+}
+
+//OR 
+if(year == 2008 || (year >= 2018 && year == 2028)){
+    console.log("El año acaba en 8");
+}else{
+    console.log("Año no registrado");
+}
