@@ -3,12 +3,17 @@
 /*
 PROGRAMA QUE PIDA DOS NUMEROS Y QUE NOS DIGA CUAL ES EL MAYOR,
 EL MENOR Y SI SON IGUALES
+PLUS: SI LO NUMEROS NO SON  NUMEROS O SON MENORES O IGUALES A CERO
+QUE NOS VUELA A PEDIR
 */
 
 var numero1 = parseInt(prompt('Introduce el Primer NUmero', 0));
 var numero2 = parseInt(prompt('Introduce el Segundo NUmero', 0));
 
-console.log(numero1, numero2);
+while(numero1 <= 0 || numero2 <= 0 || isNaN(numero1) || isNaN(numero2)){
+    numero1 = parseInt(prompt('Introduce el Primer NUmero', 0));
+    numero2 = parseInt(prompt('Introduce el Segundo NUmero', 0));
+}
 
 if(numero1 == numero2){
     alert("Los nuemros son iguales");
