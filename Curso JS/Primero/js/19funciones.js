@@ -5,17 +5,36 @@
 
 
 //defino la funcion
-function calculadora(){
+function calculadora(numero1, numero2, mostrar = false){
     // conjunto de instrucciones a ejecutar 
-    console.log("hola soy la calculadora");
-    console.log("si soy yo");
+    console.log("suma: "+(numero1+numero2));
+    console.log("resta: "+(numero1-numero2));
+    console.log("multiplicacion: "+(numero1*numero2));
+    console.log("division: "+(numero1/numero2));
+    console.log("**************************");
+    
 
-    return "hola soy la calculadora!!";
+   // return "hola soy la calculadora!!";
 
 }
+calculadora(1, 4);
+
+
+
+
+
 //console.log(calculadora(), calculadora(), calculadora());
 
 //invocar o llamar la funcion
-var resultado = calculadora();
+//var resultado = calculadora();
+//console.log(resultado);
+//calculadora(12, 8);
+//calculadora(98, 2);
 
-console.log(resultado);
+/*for(var i = 1; i <= 10; i++){
+    console.log(i);
+    calculadora(i, 8);
+}
+*/
+
+
