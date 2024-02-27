@@ -19,10 +19,13 @@ function sumame(numero1, numero2, sumaymuestra, sumapordos){
     return sumar;
 
 }
-sumame(5, 7, function(dato){
+// Al colocar => en vez de function
+// al usar las funciones de flecha =>, al usar un parametro se quita los parentisis
+// y si son dos parametros si se pone parentesis 
+sumame(5, 7, dato =>{
     console.log("La suma es: ", dato);
 },
-function(dato){
+dato =>{
     console.log("La suma por dos es: ", (dato*2));
 });
 
