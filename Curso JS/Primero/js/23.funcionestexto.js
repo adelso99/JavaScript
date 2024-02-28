@@ -5,10 +5,24 @@
 // con la funcion .toString();  combertimos un numero a un string 
 
 var numero = 444;
-var texto1 = "bienvendido al curso de js";
-var texto2 = "Execelente curso de js";
+var texto1 = "bienvenido al curso de javascript";
+var texto2 = "Execelente curso de javascript";
 
 
+
+// busquedas se usa .indexOf posicion esta la palabra y si exite o no
+// busquedas se usa .lassIndexOf permite sacar la ultima considecia si esxiste
+// busquedas se usa .search busqueda de la palabra
+// busquedas se usa .match da un array que devuele coleccion de resultados
+// busquedas se usa .charAT saca letra en concreto
+// busquedas se usa .startsWith busca al inicio del string texto y dice true o false
+
+
+var busqueda = texto1.includes("javascript");
+console.log(busqueda);
+
+
+/*
 var dato = numero.toString();
 
     // Texto a MAYUSCULA .toUpperCase();
@@ -35,3 +49,4 @@ var nombre = "Adelso Hernandez";
 var textototal = texto1.concat(" "+texto2);
 
 console.log(textototal);
+*/
