@@ -5,7 +5,7 @@
 // con la funcion .toString();  combertimos un numero a un string 
 
 var numero = 444;
-var texto1 = "bienvenido al curso de javascript";
+var texto1 = "    bienvenido al curso de javascript";
 var texto2 = "Execelente curso de javascript";
 
 
@@ -17,8 +17,10 @@ var texto2 = "Execelente curso de javascript";
 // busquedas se usa .charAT saca letra en concreto
 // busquedas se usa .startsWith busca al inicio del string texto y dice true o false
 
-
-var busqueda = texto1.includes("javascript");
+// replace sirve para replazar 
+// slice sirve para cortar desde el caracter que se le da 
+// slice sirve para cortar y meterlas en un array 
+var busqueda = texto1.trim();
 console.log(busqueda);
 
 
