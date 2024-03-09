@@ -14,11 +14,16 @@ var lenguajes = new Array("JS", "REACT", "HTML", "MySQL");
 
 document.write("<h1>Lenguajes de Programacion 2024</h1>");
 document.write("<ul>");
+/*
 for(var i = 0; i < lenguajes.length; i++){
     document.write("<li>"+lenguajes[i]+"</li>");
 }
+*/
 
+lenguajes.forEach((elemento, index, data)=>{
 document.write("</ul>");
+});
+
 
 
 
@@ -36,3 +41,4 @@ if(elemento >= nombres.length){
 */
 //console.log(nombres.length);
 
+// reaklizacion de arrays
