@@ -20,11 +20,11 @@ for(var i = 0; i < lenguajes.length; i++){
 }
 */
 
-lenguajes.forEach((elemento, index, data)=>{
-document.write("</ul>");
+lenguajes.forEach((elemento, indice)=>{
+    document.write("<li>"+indice+"-"+elemento+"</li>");
 });
 
-
+document.write("</ul>");
 
 
 
