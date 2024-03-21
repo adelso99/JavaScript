@@ -39,7 +39,7 @@ var precios = [10, 20, 50, 80, 12];
 // finIndex ayuda a bucar el numero segun la lista
 //var busqueda = lenguajes.findIndex(lenguaje => lenguaje == "MySQL");
 
-// Some busque uan condicion concreat si son mayores o menores
+// Some busque una condicion concreat si son mayores o menores
 var busqueda = precios.some(precio => precio > 100);
 
 
