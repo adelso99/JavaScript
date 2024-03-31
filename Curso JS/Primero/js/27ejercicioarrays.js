@@ -11,54 +11,84 @@ en el cuepo de la pagina y en la consola
 encuentra y su indice (se valorara el uso de funciones)
 */
 
+function mostrarArray(elementos, textoCustom = ""){
+    document.write("<h1>Contenido de array "+textoCustom+"</h1>");
+    document.write("<ul>");
+    elementos.forEach((elemento, index) => {
+    document.write("<li>"+elemento+"</li>");
+});
+    document.write("</ul>");
+}
+
 // 1. Pida 6 numeros en pantalla y los meta en un array
 
+//definiedo array
+//var numeros = [];
 var numeros = new Array(6);
+//var lenguajes = new Array("Node.js", "JS", "REACT", "PHP","HTML", "MySQL", "ORACLE");
 
+
+//pidiedo el numero de arrays
 for (var i = 0; i <= 5; i++){
     numeros[i] = parseInt(prompt("introduce un numero", 0));
+    //numeros.push(parseInt(prompt("introduce un numero", 0)));
 }
-console.log(numeros);
+
 
 
 
 // 2. Mostrar el array entero (todo sus elementos) 
 // en el cuepo de la pagina y en la consola
-// otra forma de definir el array seria var lenguajes = ["Node.js", "JS", "REACT", "PHP","HTML", "MySQL", "ORACLE"]; de manera que se usan los "[]"
-// en ves de "new array y los ()"
-var lenguajes = new Array("Node.js", "JS", "REACT", "PHP","HTML", "MySQL", "ORACLE");
 
-for(let lenguaje in lenguajes){
-    document.write("<li>"+lenguajes[lenguaje]+"</li>");
-}
+//definiedo para que muestre en la pagina
+mostrarArray(numeros);
 
-console.log(lenguajes);
-document.write("</ul>");
+// definiedo que muestre en consola
+console.log(numeros);
+
+//for(let lenguaje in lenguajes){}
+//console.log(lenguajes);
+
 
 
 //3. Ordenarlo y mostrarlo
-lenguajes.sort(); //permite ordenar el array de reversa
-console.log(lenguajes);
+//(function (a, b){return a-b} ordena de forma asendente
+numeros.sort(function (a, b){return a-b}); //permite ordenar el array de reversa
+mostrarArray(numeros, 'ordenado');
 
 
 //4. Invertir su orden y mostrarlo
-lenguajes.reverse(); //permite ordenar el array de reversa
+numeros.reverse(); //permite ordenar el array de reversa
 
-console.log(lenguajes);
+mostrarArray(numeros, 'revertido');
+//console.log(numeros);
+
 
 
 
 //5. Mostrar cuantos elementor tiene el array
-console.log(lenguajes.length);
-    
-document.write("<h1>"+"Elementos del Array"+"</h1>")
-document.write("<li>"+lenguajes.length+"</li>");
-    document.write("</ul>");
+document.write("<h1>Elementos del Array: "+numeros.length+" elementos"+"</h1>");
+
+//document.write("<h1>"+"Elementos del Array"+"</h1>")
+//document.write("<li>"+lenguajes.length+"</li>");
+//   document.write("</ul>");
 
 
 //6. Busqueda de un valor introducido por el usuario, que nos diga si lo
 //encuentra y su indice (se valorara el uso de funciones)
+var busqueda = parseInt(prompt("Busca un numero", 0));
 
+var posicion = numeros.findIndex( numero => numero == busqueda);
+
+if(posicion && posicion != -1){
+        document.write("<hr/><h1>Encontrado</h1>");
+        document.write("<h1>Posicion de la busqueda: "+posicion+"</h1><hr/>");
+}else{
+        document.write("<hr><h1> No Encontrado</h1><hr/>");
+}
+
+
+/*
 // Función para buscar un valor en el array
 function buscarValor(array, valor) {
     // Buscar el valor en el array
@@ -79,3 +109,5 @@ var valorABuscar = prompt("Introduce el valor a buscar:");
 
 // Llamar a la función para buscar el valor introducido por el usuario
 buscarValor(lenguajes, valorABuscar);
+
+*/
