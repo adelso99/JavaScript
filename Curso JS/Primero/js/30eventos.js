@@ -41,3 +41,29 @@ boton.addEventListener('mouseout', function(){
     boton.style.background = "black";
 });
 
+// Focus
+var input = document.querySelector("#campo_nombre");
+
+input.addEventListener('focus', function(){
+   console.log("[focus] Estas haciendo foco dentro del Input");
+});
+
+// Blur
+input.addEventListener('blur', function(){
+    console.log("[blur]Estas Fuera del Input");
+ });
+
+// Keydown //String.fromCharCode(event) me dice que tecla estoy usando
+input.addEventListener('keydown', function(event){
+    console.log("[keydown] Pulsando esta tecla ", String.fromCharCode(event.keyCode));
+ });
+
+// Keypress
+input.addEventListener('keypress', function(event){
+    console.log("[keypress] Tecla precionada", String.fromCharCode(event.keyCode));
+ });
+
+// Keyup permite capturar el evento cuando se levanta el dedo de la tecla
+input.addEventListener('keyup', function(event){
+    console.log("[keyup] Tecla soltada", String.fromCharCode(event.keyCode));
+ });
