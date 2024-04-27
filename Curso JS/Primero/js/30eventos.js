@@ -28,6 +28,8 @@ window.addEventListener('load', () => {
         //Evento Click que captura el doble Ciclk
         boton.addEventListener('click', function(){
             cambiarColor();
+            console.log(this);
+            this.style.border = "10px solid black";
         });
         
         // Mouse Over cambia de color al pasar el mouse
