@@ -23,14 +23,17 @@ getUsuarios()
     }
         
     function getJanet(){
-        return fetch('https://reqres.in/api//api/users/2');
+        return fetch('https://reqres.in/api/users/2');
     }
     
   function listadoUsuarios(usuarios){
      usuarios.map((user, i) => {
       let nombre = document.createElement('h3');
+     
       nombre.innerHTML = i + '.'+ user.first_name + " " + user.last_name;
+     
       div_usuarios.appendChild(nombre);
+
       document.querySelector(".loading").style.display = 'none';
         });
 
@@ -40,13 +43,15 @@ getUsuarios()
         console.log(user);
         let nombre = document.createElement('h4');
         let avatar = document.createElement('img');
+
         nombre.innerHTML = user.first_name + " " + user.last_name;
         avatar.src = user.avatar;
         avatar.width = '100';
+
          div_janet.appendChild(nombre);
          div_janet.appendChild(avatar);
          document.querySelector("#janet .loading").style.display = 'none';
         
        }     
      
-       
+       // new
