@@ -21,7 +21,13 @@ getUsuarios()
     .then(data => data.json())   
     .then(user => {   
         mostrarJanet(user.data);    
+    })
+    .catch(error => {
+        alert("error en las peticiones");
     });
+    
+
+
 
     function getUsuarios(){
         return fetch('https://reqres.in/api/users');
@@ -32,7 +38,6 @@ getUsuarios()
     }
     
         function getInfo(){
-            
             var profesor = {
                 nombre: 'Adelso',
                 apellidos: 'Hernandez',
@@ -82,4 +87,9 @@ getUsuarios()
         
        }     
      
-       // new vamos , vamos he were go
+       // new vamos , vamos he were go, gooo
+       // new vamos , vamos he were go, agooo
+       // new vamos , vamos he were go, eoo
+       // new vamos , vamos he were go, si
+       // new vamos , vamos he were go, ooo
+       // new vamos , vamos he were go, rrooo
