@@ -23,7 +23,7 @@ getUsuarios()
         mostrarJanet(user.data);    
     })
     .catch(error => {
-        alert("error en las peticiones");
+             alert("error en las peticiones");
     });
     
 
