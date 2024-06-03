@@ -27,6 +27,13 @@ console.log(textoHora);
 //console.log(Math.ceil(Math.random()*10000));
 //console.log(Math.ceil(Math.random()*10000));
 //console.log(Math.ceil(Math.random()*10000));
+//console.log(Math.ceil(Math.random()*10000));
+//console.log(Math.ceil(Math.random()*10000));
+//console.log(Math.ceil(Math.random()*10000));
+//console.log(Math.ceil(Math.random()*10000));
+//console.log(Math.ceil(Math.random()*10000));
+//console.log(Math.ceil(Math.random()*10000));
+//console.log(Math.ceil(Math.random()*10000));
 console.log(Math.ceil(Math.random()*10000));
 
 // vamos en proceso
@@ -40,4 +47,15 @@ console.log(Math.ceil(Math.random()*10000));
 // sius
 //15 champions
 
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 ///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
