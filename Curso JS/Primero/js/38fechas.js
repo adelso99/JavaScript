@@ -24,38 +24,7 @@ console.log(textoHora);
 // Google: Javascript Math
 // Math es numero aliatorio
 // Math.celi es para numeros enteros sin decimales
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
-//console.log(Math.ceil(Math.random()*10000));
+
 console.log(Math.ceil(Math.random()*10000));
 
-// vamos en proceso
-// sisiis
-// yes
-// si 
 
-
-/// vamo s
-
-// sius
-//15 champions
-
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-///siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
