@@ -65,4 +65,7 @@ $(document).ready(function(){
 // SsdadasIUUasd
 // vamos qporque qis
 //equis
-
+console.log("dias");
+console.log("Hola mundo")
+print("hola mundo");
+alert("Hola mundo");
