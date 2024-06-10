@@ -69,3 +69,14 @@ console.log("dias");
 console.log("Hola mundo")
 print("hola mundo");
 alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");
+alert("Hola mundo");smañlmd
